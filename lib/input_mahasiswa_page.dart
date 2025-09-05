@@ -62,7 +62,7 @@ class _InputMahasiswaPageState extends State<InputMahasiswaPage> {
                       "alamat": _alamatController.text,
                       "kontak": _kontakController.text,
                     };
-                    // kirim balik data ke MainPage
+                    
                     Navigator.pop(context, mahasiswa);
                   }
                 },
