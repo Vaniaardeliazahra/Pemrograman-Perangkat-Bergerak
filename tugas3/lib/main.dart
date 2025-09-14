@@ -46,7 +46,7 @@ class _HomepageState extends State<Homepage> {
             ),
             ListTile(
               leading: const Icon(Icons.home),
-              title: const Text('Counter'),
+              title: const Text('Home'),
               onTap: () {
                 Navigator.pop(context);
               },
@@ -72,3 +72,6 @@ class _HomepageState extends State<Homepage> {
     );
   }
 }
+
+// Kesan praktikum 3:
+// Praktikum 3 PPB memberikan pengalaman yang bermanfaat karena bisa langsung mempraktikkan materi dan lebih memahami konsep melalui implementasi kode.
